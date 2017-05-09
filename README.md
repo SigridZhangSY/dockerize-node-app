@@ -2,6 +2,13 @@
 
 ## node app 
 
+
+  - gulp
+  - sass
+  - BrowserSync
+
+
+
 Setup local development env.
 
  1. 安装nodejs

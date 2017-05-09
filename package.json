@@ -1,18 +1,22 @@
 {
-  "name": "3weeks3pages",
+  "name": "nodeapp",
   "version": "0.0.1",
-  "description": "3 weeks 3 page boilerplate",
+  "description": "A node app for docker test",
   "scripts": {
-    "start": "gulp serve"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jungleli/3week3page-boilerplate.git"
   },
-  "devDependencies": {
-    "browser-sync": "^2.13.0",
+  "license": "MIT",
+  "dependencies": {
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.30",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "gulp-serve": "^1.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0"
   }
 }

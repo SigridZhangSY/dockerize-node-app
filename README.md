@@ -1,4 +1,4 @@
-# dokerize node app
+# Dockerize node app
 
 ## node app 
 
@@ -34,7 +34,12 @@ Setup local development env.
 	```
  4. 运行项目
  
+    ```
+    # production env
+    > NODE_ENV='production' npm start
+    ```
 	```
+	# dev env
 	>npm start
 	```
  5. 打开浏览，启动：
@@ -45,7 +50,7 @@ Setup local development env.
 
  1. docker build -t docker/node-app .
     
-    docker/node-app 为image名
+    docker/node-app 为docker image名
     
  2. docker run -p 127.0.0.1:3000:3000 -p 127.0.0.1:3001:3001 -it "docker/node-app"
  

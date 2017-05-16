@@ -13,4 +13,4 @@ COPY . /usr/src/app
 
 EXPOSE 3000 3001
 
-CMD NODE_ENV=$NODE_ENV npm start
+CMD [ "npm", "start" ]
